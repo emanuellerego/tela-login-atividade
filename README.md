@@ -1,3 +1,2 @@
 # tela-de-login
-tela de login feito na aula 06 da Geração Tech 2.0
-css feito na aula 07 da Geração Tech 2.0
+tela de login realizada como atividade do curso de Full Stack  da Geração Tech 2.0
