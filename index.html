@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina de login segura e elegante">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="login, acesso, segurança, conta">
+    <title>Login | Minha Plataforma</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://onlineradiobox.com/br/webterradosolmaisvoce/" />
+</head>
+<body>
+    <main class="login-container">
+        <header>
+            <h1>Diario do Nordeste</h1>
+            <h2>Bem-vindo</h2>
+            <p class="subtitle">Entre com suas credenciais para acessar</p>
+        </header>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email"> Email ou Usuário</label>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Seu email ou nome de usuário" required autofocus>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password"> Senha</label>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="Senha" required>
+                </div>
+            </div>
+            <div class="forgot-password">
+                <a href="https://assine.diariodonordeste.com.br/lojadiariodonordeste/esqueci-senha/"> Esqueceu sua senha?</a>
+            </div>
+            <div class="options">
+                <div classe="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Lembrar-me</label>
+                </div>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>        
+        <div class="divider">
+            <span>Ou continue com</span>
+        </div>
+        <div class="social-login">
+            <a href="https://accounts.google.com/" class="social-btn" aria-label="Entrar com google"><img src="img/gmail.png" alt="gmail"></a>
+            <a href="https://pt-br.facebook.com/" class="social-btn" aria-label="Entrar com facebook"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="https://www.icloud.com/mail/" class="social-btn" aria-label="Entrar com apple"><img src="img/apple.png" alt="apple"></a>       
+        </div>        
+        <div class="singup-link">
+            Não tem uma conta? <a href="https://assine.diariodonordeste.com.br/lojadiariodonordeste/validacao-cadastro/">Criar conta</a>
+        </div>        
+    </main>
+</body>
+</html>

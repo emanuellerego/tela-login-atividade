@@ -1,0 +1,33 @@
+:root {
+ --primary-color: #000000;
+ --primary-hover: #ffffff;
+ --bg-dark: #009982;
+ --card-bg: #ffffff;
+ --text-primary: rgb(0, 0, 0);
+ --text-secundary: rgb(49, 47, 47);
+ --error-color: #ff6b6b;
+ --sucess-color: #009982;
+ --input-bg: #009982;
+ --border-radius: 8px;
+ --box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2)
+ --transition: all 0.3s ease;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  overflow-x: hidden;
+}

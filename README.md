@@ -1,2 +1,3 @@
-# tela-login-atividade
-tela-login Diario do Nordeste feito como atividade extra do curso Geração Tech 2.0
+# tela-de-login
+tela de login feito na aula 06 da Geração Tech 2.0
+css feito na aula 07 da Geração Tech 2.0
